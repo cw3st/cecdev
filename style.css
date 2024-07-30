@@ -960,6 +960,28 @@ aside li i {
   color: #80ed99;
 }
 
+.contactinfos {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.contactinfos i {
+  padding: px;
+  font-size: 1.5rem;
+  color: #80ed99;
+  margin: px auto;
+}
+
+.contactinfos h3 {
+  color: #80ed99;
+}
+
 .contactMe form {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -1085,6 +1107,34 @@ form h2 .SocialLinks i:hover {
   }
 
   .contactinfo p {
+    font-size: 0.6rem;
+  }
+
+  .contactinfos {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+    display: none;
+  }
+
+  .contactinfos i {
+    padding: 0;
+    font-size: 1.5rem;
+    color: #80ed99;
+    margin: 10px 0;
+  }
+
+  .contactinfos h3 {
+    color: #80ed99;
+    font-size: 0.9rem;
+  }
+
+  .contactinfos p {
     font-size: 0.6rem;
   }
 
