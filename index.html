@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script defer src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <main>
+        <div id="rnav">
+        <i class="fa-solid fas fa-bars" onclick="play()"></i>
+       </div>
+       <div id="srnav">
+        <i class="fa-solid fas fa-arrow-left" onclick="cod()"></i>
+       </div>
+       <div id="rlist">  
+        <ul class="Links">
+            <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-house"></i><p>Home</p></li>
+            <li onclick="Navigate(1)"><i class="fa-solid fa-user"></i><p>About Me</p></li>
+            <li onclick="Navigate(2)"><i class="fa-solid fa-list"></i><p>Services</p></li>
+            <li onclick="Navigate(3)"><i class="fa-solid fas fa-globe"></i><p>Websites</p></li>
+            <li onclick="Navigate(4)"><i class="fa-solid fa-comments"></i><p>Contact Me</p></li>
+        </ul>
+       </div>
+        <aside>
+            <ul class="Links">
+                <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </li>
+                <li onclick="Navigate(1)"><i class="fa-solid fa-user" ></i>
+                    <p>About Me</p>
+                </li>
+                <li onclick="Navigate(2)"><i class="fa-solid fa-list"></i>
+                    <p>Services</p>
+                </li>
+                <li onclick="Navigate(3)"><i class="fa-solid fas fa-globe"></i>
+                    <p>Websites</p>
+                </li>
+                <li onclick="Navigate(4)"><i class="fa-solid fa-comments"></i>
+                    <p>Contact Me</p>
+                </li>
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <div class="swiper-slide home-slide">
+                    <div class="HomeContent">
+                        <h1>Hi! I'm <span class="stylized-name">Chukwunenye</span>,</h1>
+                        <h2>A <span class="proffesions"> Web Developer.</span></h2>
+                        <p class="heroline">Skilled and with a passion for creating dynamic and user-friendly websites. My dedication to staying
+                            updated with the latest industry trends ensures that I consistently produce innovative and effective 
+                            web applications.
+                        </p>
+                    </div>
+                    <div class="SideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="my pic 2.jpg" alt="">
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help">Scroll for next slide <i class="fa-solid fa-chevron-right fa-shake"></i>
+                    </p>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="about-us">
+                    <h1 class="heading">About Me</h1>
+                    <h3 class="sub-heading">I'm Chukwunenye, <span class="proffesions">A Web Developer.</span></h3>
+                    <p class="aboutme-deatils">
+                        Dedicated and Known for creating responsive and intuitive websites. With a strong command of
+                        modern web technologies, I thrive in building solutions that enhance user experience and 
+                        functionality. My attention to detail and commitment to continuous learning make me a valuable
+                        asset in any web development project. Understanding the importance of collaboration, I work 
+                        closely with team members to ensure seamless integration and sucessful project outcomes. My 
+                        ability to communicate effectively and share knowledge contributes to a productive team environment. 
+                    </p>
+                    <div class="about-me-divison">
+                        <div class="about-me-table">
+                            <li><span>Experience:</span> 1+ year</li>
+                            <li><span>Country:</span> Nigeria</li>
+                            <li><span>Avability:</span> 24/7 </li>
+                            <li><span>Satisfied Clients:</span>100+</li>
+                            <li><span>Age:</span>25</li>
+                            <li><span>Phone:</span>+234 808 485 1489</li>
+                            <li><span>Language Used:</span>JavaScript</li>
+                            <li><span>Degree:</span>Cert</li>
+                        </div>
+
+                        <div class="skill-bar">
+                            <li>
+                                <p>HTML</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:99%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>CSS</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:80%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>JavaScript</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:85%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>ReactJs</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:50%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Node.js</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:60%"></div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div></div>
+                <div class="swiper-slide services">
+
+                    <h1 class="heading">Services</h1>
+                    <!-- <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                        <h2>Web Design</h2>
+                        <p>Web design is the process of organising content for websites.</p>
+                    </div> -->
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h2>Web Development</h2>
+                        <p>Web development is the process of building and maintaining websites.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fab fa-product-hunt"></i></div>
+                        <h2>Product Design</h2>
+                        <p>Product design is the process of creating and developing products.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-image"></i></div>
+                        <h2>Graphic Designer</h2>
+                        <p>This is the art of creating visual content to communicate messages.</p>
+                    </div>
+
+                    <!-- <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+                        <h2>Database Admin</h2>
+                            <p>DBA is responsible for managing, maintaining, and securing a database system.</p>
+                    </div> -->
+                </div>
+                <div class="swiper-slide gallery">
+                    <h1 class="heading">Websites</h1>
+                    <div class="project"><a href="https://66fa43477942221b5a34fe56--iridescent-clafoutis-9b8e71.netlify.app/"><img src="web4.png" alt=""></a></div>
+                    <div class="project"><a href="https://66b2c8ed5f45122fd365f8df--starlit-muffin-edad0d.netlify.app/"><img src="web1.png" alt=""></a></div>
+                    <div class="project"><a href="https://66b19c6115a642675d5f0d20--chipper-crumble-727864.netlify.app/"><img src="web2.png" alt=""></a></div>
+                    <div class="project"><a href="https://cw3st.github.io/Civi/"><img src="web3.png" alt=""></a></div>
+                </div>
+                <div class="swiper-slide contactMe">
+                    <h1 class="heading">Contact Me</h1>
+                    <div class="contactinfo"><i class="fa-solid fa-phone"></i>
+                        <h3>Mobile No</h3>
+                        <p>+234 808 485 1489</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-location-dot"></i>
+                        <h3>Location</h3>
+                        <p>Nigeria</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-regular fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>cecdev28@gmail.com</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fab fa-linkedin"></i>
+                        <h3>Linkedin</h3>
+                        <a href="https://bit.ly/3M3ccxv">https://bit.ly/3M3ccxv</a>
+                    </div>
+                    <div class="contactinfos"><i class="fa-solid fa-globe"></i>
+                        <h3>Website</h3>
+                        <a href="https://cw3st.github.io/cecdev/">https://cw3st.github.io/cecdev/</a>
+                    </div>
+                    <div class="contactinfos"><i class="fa-solid fab fa-instagram"></i>
+                        <h3>Instagram</h3>
+                        <a href="https://bit.ly/3WXq9mI">https://bit.ly/3WXq9mI</a>
+                    </div>
+                    <!-- <form>
+                        <h2>Send Me A Message <div class="SocialLinks">
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fab fa-linkedin"></i>
+                            </div>
+                        </h2>
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="email">
+                        <textarea rows="10" placeholder="Type your Message Here..."></textarea>
+                        <button class="primary">Send</button>
+
+                    </form> -->
+                    <footer>
+                        <li>Copyright © 2024 cecdev.</li>
+                    </footer>
+                </div>
+            </div>
+    </main>
+
+</body>
+</html>
