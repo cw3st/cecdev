@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-image: url(CamtcrossBanner.jpg);
+  background-image: url(/CamtcrossBanner.jpg);
   height: 80vh;
   padding: 10px 50px;
   overflow: hidden;
@@ -44,7 +44,7 @@ header {
   }
 
   header {
-    background-image: url(CamtCrossBannerRes.jpg);
+    background-image: url(/CamtCrossBannerRes.jpg);
     height: 80vh;
     padding: 10px 20px;
     overflow: hidden;
@@ -98,7 +98,7 @@ header {
   }
 
   header {
-    background-image: url(CamtCrossBannerRes.jpg);
+    background-image: url(/CamtCrossBannerRes.jpg);
     height: 80vh;
     padding: 10px 20px;
     overflow: hidden;
