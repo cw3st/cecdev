@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emmanuel-Lendsqr</title>
+    <link rel="stylesheet" href="../Styles/lendsqr.css" />
+    <script src="../Javascript/index.js" type="text/javascript"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "_z6ko2iHjx3P3flGX",
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <header></header>
+    <button class="contact-me" onclick="openPopup()">Contact Me</button>
+    <h1 class="overview-header">Overview</h1>
+    <div class="project-summary">
+      <div>
+        <span>Project Summary:</span>
+        This Typescript project features a login page and a user dashboard,
+        designed with a focus on responsiveness and user experience. The app
+        fetches user data from a mock API and allows for dynamic filtering
+        between users. Styling was implemented using SCSS/Sass for modular and
+        maintainable code.
+      </div>
+      <div class="role">
+        <div>
+          <span>Role:</span>
+          Web Developer
+        </div>
+      </div>
+    </div>
+    <div class="research-discover">
+      <h1 class="research-discovery-header">Tech Stack & Tools</h1>
+      <img
+        src="../Assets/LendsqrStack.jpg"
+        alt="Research and Discovery Image"
+      />
+      <div>
+        <h3 class="methods-findings">List of Technologies Used:</h3>
+        <li class="list1">
+          <span style="font-weight: bold">Frontend:</span>
+          TypeScript, React.js
+        </li>
+        <li class="list2">
+          <span style="font-weight: bold">Styling:</span>
+          SCSS/Sass
+        </li>
+        <li class="list2">
+          <span style="font-weight: bold">Data Handling:</span>
+          Mock API, Fetch/Axios
+        </li>
+        <li class="list2">
+          <span style="font-weight: bold">State Management:</span>
+          React Hooks (useState, useEffect)
+        </li>
+      </div>
+    </div>
+    <div class="ideation-strategy">
+      <h1 class="ideation-strategy-header">Login Page</h1>
+      <img src="../Assets/LendsqrFinalBanner.jpg" alt="Login" />
+      <div>
+        <h3 class="research-methods">Implementation:</h3>
+        <li class="list1">
+          Developed a secure and responsive login page using TypeScript and
+          React.js.
+        </li>
+        <li class="list2">Managed login state using useState</li>
+        <li class="list2">
+          Handled form validation and user feedback for login errors.
+        </li>
+        <h3 class="ideation-strategy-header">Challenges & Solutions:</h3>
+        <div class="conclusion">
+          <li class="list2">
+            <span style="font-weight: bold">Challenge:</span>
+            Ensuring form validation across different inputs.
+          </li>
+          <li class="list2">
+            <span style="font-weight: bold">Solution:</span>
+            Used controlled inputs and TypeScript type definitions to validate
+            form data.
+          </li>
+        </div>
+      </div>
+    </div>
+    <div class="ideation-strategy">
+      <h1 class="ideation-strategy-header">User Dashboard</h1>
+      <div>
+        <h3 class="methods-findings">Implementation:</h3>
+        <li class="list1">
+          Created a structured and responsive user dashboard.
+        </li>
+        <li class="list1">
+          Fetched user details from a mock API using Axios and managed state
+          using useEffect.
+        </li>
+        <li class="list1">
+          Enabled real-time filtering between users based on selected criteria.
+        </li>
+        <h3 class="methods-findings">Filter Function:</h3>
+        <li class="list1">Implemented a search bar with dynamic filtering.</li>
+        <li class="list1">
+          Used string matching and array filtering to update the list in real
+          time.
+        </li>
+        <h3 class="methods-findings">Challenges & Solutions:</h3>
+        <div class="conclusion">
+          <li class="list2">
+            <span style="font-weight: bold">Challenge:</span>
+            Ensuring the filter updates state efficiently without lag.
+          </li>
+          <li class="list2">
+            <span style="font-weight: bold">Solution:</span>
+            Used debouncing to reduce state updates and improve performance.
+          </li>
+        </div>
+      </div>
+    </div>
+    <div class="ideation-strategy">
+      <h1 class="ideation-strategy-header">Styling with SCSS/Sass</h1>
+      <div>
+        <h3 class="methods-findings">Implementation:</h3>
+        <li class="list1">Used SCSS/Sass for modular and reusable styles.</li>
+        <li class="list1">
+          Created separate style files for components to maintain clean code
+          structure.
+        </li>
+        <li class="list1">
+          Utilized variables and mixins for consistent styling and easy updates.
+        </li>
+        <h3 class="methods-findings">Example:</h3>
+        <li class="list1">
+          Defined color themes and responsive breakpoints using SCSS variables.
+        </li>
+        <li class="list1">
+          Used mixins for consistent button styling and hover states.
+        </li>
+        <h3 class="methods-findings">Challenges & Solutions:</h3>
+        <div class="conclusion">
+          <li class="list2">
+            <span style="font-weight: bold">Challenge:</span>
+            Managing style consistently across components.
+          </li>
+          <li class="list2">
+            <span style="font-weight: bold">Solution:</span>
+            Created global style variables and mixins for easy reuse.
+          </li>
+        </div>
+      </div>
+    </div>
+    <div class="ideation-strategy">
+      <h1 class="ideation-strategy-header">Responsive Design</h1>
+      <div>
+        <h3 class="methods-findings">Implementation:</h3>
+        <li class="list1">
+          Ensured responsiveness using CSS media queries and flexbox/grid.
+        </li>
+        <li class="list1">
+          Adapted layout to different screen sizes (mobile, tablet, desktop).
+        </li>
+        <h3 class="methods-findings">Example:</h3>
+        <li class="list1">
+          Adjusted navbar and dashboard layout for mobile view.
+        </li>
+        <li class="list1">
+          Used flexbox for consistent alignment and spacing.
+        </li>
+        <h3 class="methods-findings">Challenges & Solutions:</h3>
+        <div class="conclusion">
+          <li class="list2">
+            <span style="font-weight: bold">Challenge:</span>
+            Maintaining consistent layout across different resolutions.
+          </li>
+          <li class="list2">
+            <span style="font-weight: bold">Solution:</span>
+            Used flexbox and grid for adaptive resizing and positioning.
+          </li>
+        </div>
+        <div class="prototype">
+          <a href="https://lendsqr-cecdev.netlify.app/">VIEW WEBSITE</a>
+        </div>
+      </div>
+    </div>
+    <div class="ideation-strategy">
+      <h1 class="ideation-strategy-header">Challenges & Lesson Learned</h1>
+      <div>
+        <h3 class="methods-findings">Key Challenges:</h3>
+        <li class="list1">
+          Managing state updates efficiently during filtering.
+        </li>
+        <li class="list1">
+          Maintaining responsive design without breaking layout.
+        </li>
+        <li class="list1">Handling form validation with TypeScript.</li>
+        <h3 class="methods-findings">Solutions & Lesson Learned:</h3>
+        <li class="list1">
+          Learned to use debouncing for performance improvements.
+        </li>
+        <li class="list1">
+          Strengthened Typescript skills for form handling and state mangement.
+        </li>
+        <li class="list1">
+          Improved ability to design modular and scalable components with SCSS.
+        </li>
+      </div>
+    </div>
+    <div class="ideation-strategy">
+      <h1 class="ideation-strategy-header">
+        Final Outcome & Future Improvements
+      </h1>
+      <div>
+        <h3 class="methods-findings">Final Results:</h3>
+        <li class="list1">
+          A scalable and responsive app with real-time filtering and smooth user
+          experience.
+        </li>
+        <li class="list1">
+          Clean and consistent UI design and SCSS-based styling.
+        </li>
+        <h3 class="methods-findings">Future Enhancements:</h3>
+        <li class="list1">
+          Add more advanced filter options (e.g., by role, location).
+        </li>
+        <li class="list1">
+          Improve authentication with real-world API integration.
+        </li>
+        <li class="list1">
+          Implement user role-based dashboard customization.
+        </li>
+      </div>
+    </div>
+    <footer>&copy; 2025 Emmanuel Chukwunenye. All Rights Reserved.</footer>
+    <!-- Contact Form Popup -->
+    <div id="overlay" class="overlay" onclick="closePopup(event)">
+      <div class="popup" onclick="event.stopPropagation()">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+
+          <label for="email">Subject</label>
+          <input
+            type="email"
+            id="subject"
+            name="subject"
+            placeholder="Enter Subject"
+            required
+          />
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+
+          <div class="popup-buttons">
+            <button type="button" class="send-btn" onclick="sendMail()">
+              Send Message
+            </button>
+            <button type="button" class="close-btn" onclick="closePopup()">
+              Close
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

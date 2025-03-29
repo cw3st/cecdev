@@ -1,0 +1,893 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "inter", serif;
+  background-color: #fff;
+}
+
+header {
+  background-image: url(../Assets/CamtcrossBanner.jpg);
+  height: 80vh;
+  padding: 10px 50px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-me {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: #06827b;
+  color: white;
+  border: 0;
+  padding: 15px;
+  margin-top: 300px;
+  margin-right: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+@media (max-width: 768px) {
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "inter", serif;
+    background-color: #fff;
+  }
+
+  header {
+    background-image: url(../Assets/CamtCrossBannerRes.jpg);
+    height: 80vh;
+    padding: 10px 20px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contact-me {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #06827b;
+    color: white;
+    border: 0;
+    padding: 10px;
+    margin-top: 300px;
+    margin-right: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    z-index: 100;
+    font-size: 0.7rem;
+  }
+
+  nav {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav h1 {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "inter", serif;
+    background-color: #fff;
+  }
+
+  header {
+    background-image: url(../Assets/CamtCrossBannerRes.jpg);
+    height: 80vh;
+    padding: 10px 20px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contact-me {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #06827b;
+    color: white;
+    border: 0;
+    padding: 10px;
+    margin-top: 300px;
+    margin-right: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    z-index: 100;
+    font-size: 0.7rem;
+  }
+
+  nav {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav h1 {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    font-size: 0.8rem;
+  }
+}
+
+.overview-header {
+  margin-left: 200px;
+  margin-top: 60px;
+  font-size: 1.5rem;
+  overflow: hidden;
+}
+
+.project-summary {
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 300px;
+  overflow: hidden;
+}
+
+.project-summary div {
+  margin: 0;
+  line-height: 1.8;
+  margin-bottom: 10px;
+  font-size: 0.85rem;
+}
+
+.project-summary div span {
+  font-weight: bold;
+}
+
+.problem-statement {
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 300px;
+}
+
+.problem-statement div {
+  margin: 0;
+  line-height: 1.8;
+  margin-top: 20px;
+  font-size: 0.85rem;
+}
+
+.problem-statement div span {
+  font-weight: bold;
+}
+
+.role div {
+  margin-top: 20px;
+}
+
+.research-discover {
+  overflow: hidden;
+}
+
+.research-discovery-header {
+  margin-left: 200px;
+  margin-top: 60px;
+  font-size: 1.5rem;
+}
+
+.research-discover img {
+  height: 400px;
+  width: 1000px;
+  margin: 0 200px;
+}
+
+.methods-findings {
+  margin-left: 200px;
+  font-size: 0.9rem;
+  padding-top: 10px;
+}
+
+.research-methods {
+  margin-left: 300px;
+  font-size: 0.85rem;
+  padding-top: 10px;
+}
+
+.list-no {
+  font-size: 0.85rem;
+  display: flex;
+  margin-left: 300px;
+  padding-top: 10px;
+}
+
+.list-no span {
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.list1 {
+  font-size: 0.85rem;
+  line-height: 1.8;
+  margin: 0 325px;
+  margin-top: 10px;
+}
+
+.list1 span {
+  font-weight: bold;
+}
+
+.list2 {
+  font-size: 0.85rem;
+  line-height: 1.8;
+  margin: 10px 325px;
+}
+
+.list2 span {
+  font-weight: bold;
+}
+
+.conclusion {
+  margin: 10px 200px;
+  font-size: 0.85rem;
+  line-height: 1.8;
+}
+
+.ideation-strategy {
+  overflow: hidden;
+}
+
+.ideation-strategy img {
+  height: 400px;
+  width: 1000px;
+  margin: 0 200px;
+  overflow: hidden;
+}
+
+.ideation-strategy-header {
+  margin-left: 200px;
+  margin-top: 60px;
+  font-size: 1.5rem;
+}
+
+.prototype {
+  border: solid 2px #06827b;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0 600px;
+  padding: 10px 0;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #06827b;
+}
+.prototype:hover a {
+  color: white;
+}
+.prototype:hover {
+  cursor: pointer;
+  background-color: #06827b;
+}
+
+.prototype a {
+  text-decoration: none;
+  color: #06827b;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+video {
+  max-width: 70%;
+  max-height: 70%;
+}
+
+footer {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .overview-header {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    overflow: hidden;
+  }
+
+  .project-summary {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 20px;
+    overflow: hidden;
+  }
+
+  .project-summary div {
+    margin: 0;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    font-size: 0.7rem;
+  }
+
+  .project-summary div span {
+    font-weight: bold;
+  }
+
+  .problem-statement {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 20px;
+  }
+
+  .problem-statement div {
+    margin: 0;
+    line-height: 1.8;
+    margin-top: 20px;
+    font-size: 0.7rem;
+  }
+
+  .problem-statement div span {
+    font-weight: bold;
+  }
+
+  .role div {
+    margin-top: 20px;
+  }
+
+  .research-discover {
+    overflow: hidden;
+  }
+
+  .research-discovery-header {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 0.9rem;
+  }
+
+  .research-discover img {
+    height: 90%;
+    width: 90%;
+    margin: 0 20px;
+  }
+
+  .methods-findings {
+    margin-left: 20px;
+    font-size: 0.7rem;
+    padding-top: 10px;
+  }
+
+  .research-methods {
+    margin-left: 30px;
+    font-size: 0.7rem;
+    padding-top: 10px;
+  }
+
+  .list-no {
+    font-size: 0.7rem;
+    display: flex;
+    margin-left: 30px;
+    padding-top: 10px;
+  }
+
+  .list-no span {
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  .list1 {
+    font-size: 0.7rem;
+    line-height: 1.8;
+    margin: 0 47px;
+    margin-top: 10px;
+  }
+
+  .list1 span {
+    font-weight: bold;
+  }
+
+  .list2 {
+    font-size: 0.7rem;
+    line-height: 1.8;
+    margin: 5px 47px;
+  }
+
+  .list2 span {
+    font-weight: bold;
+  }
+
+  .conclusion {
+    margin: 15px 20px;
+    font-size: 0.7rem;
+    line-height: 1.8;
+  }
+
+  .ideation-strategy {
+    overflow: hidden;
+  }
+
+  .ideation-strategy img {
+    height: 90%;
+    width: 90%;
+    margin: 0 20px;
+    overflow: hidden;
+  }
+
+  .ideation-strategy-header {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 0.9rem;
+  }
+
+  .prototype {
+    border: solid 2px #06827b;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.7rem;
+    text-align: center;
+    margin: 0 70px;
+    padding: 10px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #06827b;
+  }
+  .prototype:hover a {
+    color: white;
+  }
+  .prototype:hover {
+    cursor: pointer;
+    background-color: #06827b;
+  }
+
+  .prototype a {
+    text-decoration: none;
+    color: #06827b;
+  }
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+  }
+
+  video {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  footer {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    font-size: 0.65rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .overview-header {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    overflow: hidden;
+  }
+
+  .project-summary {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 20px;
+    overflow: hidden;
+  }
+
+  .project-summary div {
+    margin: 0;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    font-size: 0.7rem;
+  }
+
+  .project-summary div span {
+    font-weight: bold;
+  }
+
+  .problem-statement {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 20px;
+  }
+
+  .problem-statement div {
+    margin: 0;
+    line-height: 1.8;
+    margin-top: 20px;
+    font-size: 0.7rem;
+  }
+
+  .problem-statement div span {
+    font-weight: bold;
+  }
+
+  .role div {
+    margin-top: 20px;
+  }
+
+  .research-discover {
+    overflow: hidden;
+  }
+
+  .research-discovery-header {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 0.9rem;
+  }
+
+  .research-discover img {
+    height: 90%;
+    width: 90%;
+    margin: 0 20px;
+  }
+
+  .methods-findings {
+    margin-left: 20px;
+    font-size: 0.7rem;
+    padding-top: 10px;
+  }
+
+  .research-methods {
+    margin-left: 30px;
+    font-size: 0.7rem;
+    padding-top: 10px;
+  }
+
+  .list-no {
+    font-size: 0.7rem;
+    display: flex;
+    margin-left: 30px;
+    padding-top: 10px;
+  }
+
+  .list-no span {
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  .list1 {
+    font-size: 0.7rem;
+    line-height: 1.8;
+    margin: 0 47px;
+    margin-top: 10px;
+  }
+
+  .list1 span {
+    font-weight: bold;
+  }
+
+  .list2 {
+    font-size: 0.7rem;
+    line-height: 1.8;
+    margin: 5px 47px;
+  }
+
+  .list2 span {
+    font-weight: bold;
+  }
+
+  .conclusion {
+    margin: 15px 20px;
+    font-size: 0.7rem;
+    line-height: 1.8;
+  }
+
+  .ideation-strategy {
+    overflow: hidden;
+  }
+
+  .ideation-strategy img {
+    height: 90%;
+    width: 90%;
+    margin: 0 20px;
+    overflow: hidden;
+  }
+
+  .ideation-strategy-header {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 0.9rem;
+  }
+
+  .prototype {
+    border: solid 2px #06827b;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.7rem;
+    text-align: center;
+    margin: 0 70px;
+    padding: 10px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #06827b;
+  }
+  .prototype:hover a {
+    color: white;
+  }
+  .prototype:hover {
+    cursor: pointer;
+    background-color: #06827b;
+  }
+
+  .prototype a {
+    text-decoration: none;
+    color: #06827b;
+  }
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+  }
+
+  video {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  footer {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    font-size: 0.65rem;
+  }
+}
+
+/* Overlay styles */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+}
+
+.overlay.active {
+  display: flex;
+  opacity: 1;
+}
+
+/* Popup box */
+.popup {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.overlay.active .popup {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Form layout */
+.popup form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Labels */
+.popup label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Input fields */
+.popup input,
+.popup textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.popup textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Buttons layout */
+.popup-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.send-btn,
+.close-btn {
+  flex: 1;
+  margin: 0 5px;
+  padding: 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.send-btn {
+  background: #06827b;
+  color: white;
+}
+
+.send-btn:hover {
+  background: #045e59;
+}
+
+.close-btn {
+  background: gray;
+  color: white;
+}
+
+.close-btn:hover {
+  background: darkred;
+}
+
+@media (max-width: 768px) {
+  /* Overlay styles */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+  }
+
+  .overlay.active {
+    display: flex;
+    opacity: 1;
+  }
+
+  /* Popup box */
+  .popup {
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+    width: 90%;
+    max-width: 200px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+  }
+
+  .overlay.active .popup {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .popup h2 {
+    font-size: 0.9rem;
+  }
+
+  /* Form layout */
+  .popup form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Labels */
+  .popup label {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+
+  /* Input fields */
+  .popup input,
+  .popup textarea {
+    width: 95%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 0.7rem;
+  }
+
+  .popup textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+
+  /* Buttons layout */
+  .popup-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+
+  .send-btn,
+  .close-btn {
+    flex: 1;
+    margin: 0 5px;
+    padding: 6px;
+    font-size: 0.7rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .send-btn {
+    background: black;
+    color: white;
+  }
+
+  .send-btn:hover {
+    background: darkgray;
+  }
+
+  .close-btn {
+    background: gray;
+    color: white;
+  }
+
+  .close-btn:hover {
+    background: darkred;
+  }
+}

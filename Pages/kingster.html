@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emmanuel-Kingster University</title>
+    <link rel="stylesheet" href="../Styles/kingster.css" />
+    <script src="../Javascript/index.js" type="text/javascript"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "_z6ko2iHjx3P3flGX",
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <header></header>
+    <button class="contact-me" onclick="openPopup()">Contact Me</button>
+    <h1 class="overview-header">Overview</h1>
+    <div class="project-summary">
+      <div>
+        <span>Project Summary:</span>
+        This React.js school app was built using vite for fast setup for
+        development. It features reusable components, responsive navigation, and
+        integration with a secure backend built on Express.js and MongoDB.
+      </div>
+      <div class="role">
+        <div>
+          <span>Role:</span>
+          Full Stack Developer
+        </div>
+      </div>
+    </div>
+    <h3 class="methods-findings">Tech Stack:</h3>
+    <li class="list1">
+      <span style="font-weight: bold">Frontend:</span>
+      React.js, Vite, React Hooks, Axios for API integration.
+    </li>
+    <li class="list2">
+      <span style="font-weight: bold">Backend:</span>
+      Node.js, Express.js, MongoDB, Mongoose, Restful APIs.
+    </li>
+    <li class="list2">
+      <span style="font-weight: bold">Security & Utilities:</span>
+      bcrypt, cors, dotenv, helmet, jsonwebtoken, multer, nodemon.
+    </li>
+    <h3 class="methods-findings">Deployment Details:</h3>
+    <li class="list2">
+      The app was deployed on Netlify as a personal project.
+    </li>
+    <li class="list2">
+      <span style="font-weight: bold">Backend Deployment Limitation:</span>
+      The backend could not be deployed, but the app's full functionality can be
+      demonstrated during a presentation if required.
+    </li>
+    <div class="research-discover">
+      <h1 class="research-discovery-header">Frontend Architecture</h1>
+      <img
+        src="../Assets/KingsterStack.jpg"
+        alt="Research and Discovery Image"
+      />
+      <div>
+        <h3 class="methods-findings">Component Structure:</h3>
+        <div class="conclusion">
+          - Built reusable components for maintainability and scalability.
+        </div>
+        <div class="conclusion">- Utilized a hierarchal routing structure.</div>
+        <li class="list1">
+          <span style="font-weight: bold">stack.jsx</span>
+          for routing throughout the app.
+        </li>
+        <li class="list2">
+          <span style="font-weight: bold">stack.jsx</span>
+          referenced in app.jsx
+        </li>
+        <li class="list2">
+          <span style="font-weight: bold">app.jsx</span>
+          connected to main.jsx, which was finally linked in index.html
+        </li>
+        <h3 class="methods-findings">Responsive Design:</h3>
+        <div class="conclusion">
+          - Implemented responsive navigation using React Hooks.
+        </div>
+      </div>
+    </div>
+    <div class="ideation-strategy">
+      <h1 class="ideation-strategy-header">Backend Development</h1>
+      <img src="../Assets/KingsterFinalBanner.jpg" alt="Design Process Image" />
+      <div>
+        <h3 class="methods-findings">Server & API Architecture</h3>
+        <div class="conclusion">
+          - Built with Express.js and Node.js for handling server requests.
+        </div>
+        <div class="conclusion">- Developed RESTFUL APIs for:</div>
+        <li class="list1">
+          <span style="font-weight: bold">User Authentication:</span>
+          Registration and Login.
+        </li>
+        <li class="list2">
+          <span style="font-weight: bold">Data Management:</span>
+          Fetching and updating data in MongoDB
+        </li>
+        <h3 class="methods-findings">Security Features:</h3>
+        <li class="list2">
+          <span style="font-weight: bold">bcrypt</span>
+          for password hashing.
+        </li>
+        <li class="list2">
+          <span style="font-weight: bold">jsonwebtoken</span>
+          for authentication and authorization.
+        </li>
+        <li class="list2">
+          <span style="font-weight: bold">helmet</span>
+          for securing HTTP headers.
+        </li>
+        <li class="list2">
+          <span style="font-weight: bold">cors</span>
+          for cross-origin resource sharing.
+        </li>
+      </div>
+    </div>
+    <div class="ideation-strategy">
+      <h1 class="ideation-strategy-header">Data Integration & Management</h1>
+      <div>
+        <h3 class="methods-findings">API Integration:</h3>
+        <li class="list1">
+          Integrated RESTFUL APIs using Axios for asynchronous request.
+        </li>
+        <li class="list2">
+          Managed data flow using useState and useEffect React Hooks.
+        </li>
+        <h3 class="methods-findings">Example:</h3>
+        <li class="list2">Registration and Login data flow.</li>
+        <li class="list2">
+          Fetching and displaying student data from MonogoDB
+        </li>
+      </div>
+    </div>
+    <div class="ideation-strategy">
+      <h1 class="ideation-strategy-header">Challenges & Solutions</h1>
+      <div>
+        <h3 class="methods-findings">Key Challenges:</h3>
+        <li class="list1">
+          Ensuring efficient state management while fetching data.
+        </li>
+        <li class="list2">Securing user authentication and authorization.</li>
+        <li class="list2">
+          Handling responsive navigation logic with React Hooks.
+        </li>
+        <h3 class="methods-findings">Solutions & Lessons Learned:</h3>
+        <li class="list1">
+          Implemented useState and useEffect for Optimized state management.
+        </li>
+        <li class="list2">
+          Utilized jsonwebtoken and bcrypt for robust authentication.
+        </li>
+        <li class="list2">
+          Enhanced user experience with responsive and interactive UI
+          components.
+        </li>
+      </div>
+    </div>
+    <div class="ideation-strategy">
+      <h1 class="ideation-strategy-header">Deployment & Presentation</h1>
+      <div>
+        <h3 class="methods-findings">Deployment Details:</h3>
+        <li class="list1">
+          The app was deployed on Netlify as a personal project.
+        </li>
+        <li class="list2">
+          Due to backend hosting limitations, the backend was not deployed.
+        </li>
+        <li class="list2">
+          <span style="font-weight: bold">Presentation Availability:</span>
+          The app's full functionality can be demonstrated during a presentation
+          if required.
+        </li>
+        <div class="prototype">
+          <a href="https://kingster-university.netlify.app/">VIEW WEBSITE</a>
+        </div>
+      </div>
+    </div>
+    <div class="ideation-strategy">
+      <h1 class="ideation-strategy-header">
+        Final Outcome & Future Improvements
+      </h1>
+      <div>
+        <h3 class="methods-findings">Final Result:</h3>
+        <li class="list1">
+          A dynamic and responsive school app with seamless integration between
+          frontend and backend.
+        </li>
+        <li class="list2">
+          Efficient user authentication and data management.
+        </li>
+        <h3 class="methods-findings">Future Enhancements:</h3>
+        <li class="list2">
+          Deploy the backend for a fully functional live demo.
+        </li>
+        <li class="list2">
+          Add more interactivity and animations for better user engagement.
+        </li>
+        <li class="list2">
+          Improve accessibility features for a more inclusive experience.
+        </li>
+      </div>
+    </div>
+    <footer>&copy; 2025 Emmanuel Chukwunenye. All Rights Reserved.</footer>
+    <!-- Contact Form Popup -->
+    <div id="overlay" class="overlay" onclick="closePopup(event)">
+      <div class="popup" onclick="event.stopPropagation()">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+
+          <label for="email">Subject</label>
+          <input
+            type="email"
+            id="subject"
+            name="subject"
+            placeholder="Enter Subject"
+            required
+          />
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+
+          <div class="popup-buttons">
+            <button type="button" class="send-btn" onclick="sendMail()">
+              Send Message
+            </button>
+            <button type="button" class="close-btn" onclick="closePopup()">
+              Close
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
