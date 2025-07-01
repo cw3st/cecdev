@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emmanuel-Kingster University</title>
+    <link rel="stylesheet" href="nft.css" />
+    <script src="index.js" type="text/javascript"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "_z6ko2iHjx3P3flGX",
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <header></header>
+    <button class="contact-me" onclick="openPopup()">Contact Me</button>
+    <h1 class="overview-header">Overview</h1>
+    <div class="project-summary">
+      <div>
+        <span>Project Summary:</span>
+        This full-stack Web3 NFT Minting Application empowers users to mint
+        digital collectibles seamlessly on the Ethereum Sepolia testnet.
+        Developed with TypeScript and React (App Router), the application
+        features wallet connection via RainbowKit, smart contract interaction
+        using Viem and Wagmi, and backend metadata handling with MongoDB. Users
+        can mint NFTs directly on-chain after uploading metadata, with automatic
+        wallet signature verification. A fully responsive and modern UI ensures
+        smooth interaction across devices, while a dynamic gallery allows users
+        to view all NFTs tied to their wallet address.
+      </div>
+      <div>
+        <span>Problem Statement:</span>
+        Building a decentralized NFT minting app typically requires handling
+        both off-chain metadata storage and on-chain contract execution, while
+        ensuring secure authentication without traditional logins. Bridging
+        backend storage with real-time blockchain interaction, maintaining
+        wallet signature verification, and offering a responsive user interface
+        across devices are common challenges that complicate scalability and
+        user adoption.
+      </div>
+      <div>
+        <span>Solution:</span>
+        This application was architected to simplify the NFT minting workflow.
+        The frontend enables wallet connection, form-based metadata input, and
+        NFT minting in just a few steps. The backend stores metadata securely in
+        MongoDB and provides RESTful APIs protected by wallet signature
+        verification. Smart contract interaction is handled using Viem and Wagmi
+        libraries, ensuring reliable and gas-efficient transaction execution.
+        The entire app is styled with Tailwind CSS for responsiveness and
+        deployed on Vercel and Render for production-ready access.
+      </div>
+      <div class="role">
+        <div>
+          <span>Role:</span>
+          Full Stack Developer
+        </div>
+      </div>
+    </div>
+    <h1 class="overview-header">Tech Stack & Tools</h1>
+    <h3 class="methods-findings">Frontend:</h3>
+    <li class="list1">
+      <span style="font-weight: bold">Framework:</span>
+      React (App Router), Next.js
+    </li>
+    <li class="list1">
+      <span style="font-weight: bold">Language:</span>
+      TypeScript
+    </li>
+    <li class="list1">
+      <span style="font-weight: bold">Styling:</span>
+      Tailwind CSS
+    </li>
+    <li class="list1">
+      <span style="font-weight: bold">Wallet Connection:</span>
+      RainbowKit
+    </li>
+    <li class="list1">
+      <span style="font-weight: bold">Blockchain Interaction:</span>
+      Viem, Wagmi
+    </li>
+    <h3 class="methods-findings">Backend:</h3>
+    <li class="list2">
+      <span style="font-weight: bold">Server:</span>
+      Node.js, Express.js.
+    </li>
+    <li class="list2">
+      <span style="font-weight: bold">Database:</span>
+      MongoDB (Mongoose).
+    </li>
+    <li class="list2">
+      <span style="font-weight: bold">Authentication:</span>
+      JWT (with plans to move to signature-only auth)
+    </li>
+    <li class="list2">
+      <span style="font-weight: bold">API Documentation:</span>
+      Swagger
+    </li>
+    <li class="list2">
+      <span style="font-weight: bold">Smart Contract:</span>
+      Solidity (ERC-721 custom contract deployed on Sepolia)
+    </li>
+    <h3 class="methods-findings">Deployment:</h3>
+    <li class="list2">
+      <span style="font-weight: bold">Frontend:</span>
+      Vercel
+    </li>
+    <li class="list2">
+      <span style="font-weight: bold">Backend:</span>
+      Render
+    </li>
+    <li class="list2">
+      <span style="font-weight: bold">Database:</span>
+      MongoDB Atlas
+    </li>
+    <div class="research-discover">
+      <h1 class="research-discovery-header">Demo</h1>
+      <div class="video-container">
+        <video
+          playsinline="true"
+          loop="loop"
+          muted="muted"
+          autoplay="autoplay"
+          controls="controls"
+          preload="metadata"
+          src="NFTapp.mp4"
+        ></video>
+      </div>
+      <div>
+        <h3 class="methods-findings">Mint NFT Workflow</h3>
+        <div class="conclusion">Users can</div>
+        <div class="conclusion">- Connect their wallet.</div>
+        <div class="conclusion">
+          - Fill out a form with name, description, and image URL.
+        </div>
+        <div class="conclusion">- Sign a message to verify ownership.</div>
+        <div class="conclusion">
+          - Store NFT metadata in MongoDB via the backend.
+        </div>
+        <div class="conclusion">
+          - Automatically mint the NFT on-chain via a custom smart contract.
+        </div>
+        <div class="conclusions1">
+          <span class="code1"> const </span>
+          <span class="code2">{ tokenId, metadataUrl } =</span>
+          <span class="code1">await</span> <span class="code3">fetch</span
+          ><span class="code2">(</span><span class="code4">"/nft/store"</span
+          ><span class="code2">);</span>
+        </div>
+        <div class="conclusions2">
+          <span class="code1">await</span>
+          <span class="code2">walletClient.</span
+          ><span class="code3">writeContract</span
+          ><span class="code2">({</span> <span class="code5">functionName</span
+          ><span class="code2">:</span><span class="code4"> "mint"</span>
+          <span class="code2">,</span> <span class="code5"> args</span
+          ><span class="code2">: [tokenId, metadataUrl] });</span>
+        </div>
+      </div>
+      <h3 class="methods-findings">Mint NFT Workflow</h3>
+      <div class="conclusion">
+        Once minted, the user can view their NFTs dynamically in a gallery. This
+        is fetched by wallet address using a secure API.
+      </div>
+      <div class="conclusions">
+        <span class="code3">fetch</span><span class="code2">(</span
+        ><span class="code4">`/nft/user/${walletAddress}`</span
+        ><span class="code2">); </span>
+        <span class="code6"> // returns all NFTs owned by the address</span>
+      </div>
+    </div>
+    <div class="ideation-strategy">
+      <h1 class="ideation-strategy-header">
+        Authentication & Signature Verification
+      </h1>
+      <div class="conclusion">
+        Wallet-based authentication ensures users don’t need accounts or
+        passwords. The backend uses ethers.js to verify that the user signed a
+        unique message tied to their wallet address before allowing metadata to
+        be stored.
+      </div>
+      <div class="conclusions">
+        <span class="code2">ethers.</span
+        ><span class="code3">verifyMessage</span
+        ><span class="code2">(message, signature) === walletAddress;</span>
+      </div>
+      <div class="prototype">
+        <a href="https://kingster-university.netlify.app/">VIEW WEBSITE</a>
+      </div>
+    </div>
+    <div class="ideation-strategy">
+      <h1 class="ideation-strategy-header">Challenges & Lesson Learnt</h1>
+      <div>
+        <h3 class="methods-findings">Key Challenges:</h3>
+        <li class="list1">
+          Verifying wallet signatures securely without compromising user
+          experience.
+        </li>
+        <li class="list2">
+          Preventing duplicate or invalid token IDs during storage.
+        </li>
+        <li class="list2">
+          Handling smart contract errors gracefully on-chain.
+        </li>
+        <li class="list2">
+          Managing async flow between backend and contract minting reliably.
+        </li>
+        <h3 class="methods-findings">Solutions & Lessons</h3>
+        <li class="list1">
+          Integrated ethers.js for safe and accurate signature verification.
+        </li>
+        <li class="list2">
+          Used UUID/random number generation for token ID uniqueness.
+        </li>
+        <li class="list2">
+          Improved UX by showing clear feedback during loading/error states.
+        </li>
+        <li class="list2">
+          Tested minting flow on Sepolia thoroughly before deployment.
+        </li>
+      </div>
+    </div>
+    <div class="ideation-strategy">
+      <h1 class="ideation-strategy-header">Final Results</h1>
+      <div class="conclusion">
+        This NFT Minting Platform delivers a clean, functional, and fully
+        integrated experience that allows users to easily mint and view their
+        NFTs without requiring any login or server-based email systems. The use
+        of Web3 technologies, combined with best practices in full-stack
+        development, ensures that it is both scalable and secure.
+      </div>
+    </div>
+    <div class="ideation-strategy">
+      <h1 class="ideation-strategy-header">Future Enhancements</h1>
+      <div>
+        <li class="list1">
+          Replace JWT authentication with full signature-based access control.
+        </li>
+        <li class="list2">
+          Add drag-and-drop image upload with IPFS integration.
+        </li>
+        <li class="list2">
+          Display minted NFTs using on-chain tokenURI() resolution.
+        </li>
+        <li class="list2">
+          Improve accessibility for better screen reader and keyboard navigation
+          support.
+        </li>
+        <li class="list2">
+          Expand to support multi-chain minting on Polygon or Base.
+        </li>
+      </div>
+    </div>
+    <footer>&copy; 2025 Emmanuel Chukwunenye. All Rights Reserved.</footer>
+    <!-- Contact Form Popup -->
+    <div id="overlay" class="overlay" onclick="closePopup(event)">
+      <div class="popup" onclick="event.stopPropagation()">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+
+          <label for="email">Subject</label>
+          <input
+            type="email"
+            id="subject"
+            name="subject"
+            placeholder="Enter Subject"
+            required
+          />
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+
+          <div class="popup-buttons">
+            <button type="button" class="send-btn" onclick="sendMail()">
+              Send Message
+            </button>
+            <button type="button" class="close-btn" onclick="closePopup()">
+              Close
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
