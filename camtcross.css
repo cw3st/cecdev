@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-image: url(CamtcrossBanner.jpg);
+  background-image: url(SFCollabBanner.jpg);
   height: 80vh;
   padding: 10px 50px;
   overflow: hidden;
@@ -21,7 +21,7 @@ header {
   position: fixed;
   right: 0;
   top: 0;
-  background-color: #06827b;
+  background-color: #0F0F0F;
   color: white;
   border: 0;
   padding: 15px;
@@ -44,7 +44,7 @@ header {
   }
 
   header {
-    background-image: url(CamtCrossBannerRes.jpg);
+    background-image: url(SFCOLLAB03.jpg);
     height: 80vh;
     padding: 10px 20px;
     overflow: hidden;
@@ -55,7 +55,7 @@ header {
     position: fixed;
     right: 0;
     top: 0;
-    background-color: #06827b;
+    background-color: #0F0F0F;
     color: white;
     border: 0;
     padding: 10px;
@@ -98,7 +98,7 @@ header {
   }
 
   header {
-    background-image: url(CamtCrossBannerRes.jpg);
+    background-image: url(SFCOLLAB03.jpg);
     height: 80vh;
     padding: 10px 20px;
     overflow: hidden;
@@ -109,7 +109,7 @@ header {
     position: fixed;
     right: 0;
     top: 0;
-    background-color: #06827b;
+    background-color: #0F0F0F;
     color: white;
     border: 0;
     padding: 10px;
@@ -276,7 +276,7 @@ header {
 }
 
 .prototype {
-  border: solid 2px #06827b;
+  border: solid 2px #0F0F0F;
   justify-content: center;
   font-weight: bold;
   font-size: 0.8rem;
@@ -285,19 +285,19 @@ header {
   padding: 10px 0;
   border-radius: 10px;
   text-decoration: none;
-  color: #06827b;
+  color: #0F0F0F;
 }
 .prototype:hover a {
   color: white;
 }
 .prototype:hover {
   cursor: pointer;
-  background-color: #06827b;
+  background-color: #0F0F0F;
 }
 
 .prototype a {
   text-decoration: none;
-  color: #06827b;
+  color: #0F0F0F;
 }
 
 .video-container {
@@ -453,7 +453,7 @@ footer {
   }
 
   .prototype {
-    border: solid 2px #06827b;
+    border: solid 2px #0F0F0F;
     justify-content: center;
     font-weight: bold;
     font-size: 0.7rem;
@@ -462,19 +462,19 @@ footer {
     padding: 10px 0;
     border-radius: 10px;
     text-decoration: none;
-    color: #06827b;
+    color: #0F0F0F;
   }
   .prototype:hover a {
     color: white;
   }
   .prototype:hover {
     cursor: pointer;
-    background-color: #06827b;
+    background-color: #0F0F0F;
   }
 
   .prototype a {
     text-decoration: none;
-    color: #06827b;
+    color: #0F0F0F;
   }
 
   .video-container {
@@ -632,7 +632,7 @@ footer {
   }
 
   .prototype {
-    border: solid 2px #06827b;
+    border: solid 2px #0F0F0F;
     justify-content: center;
     font-weight: bold;
     font-size: 0.7rem;
@@ -641,19 +641,19 @@ footer {
     padding: 10px 0;
     border-radius: 10px;
     text-decoration: none;
-    color: #06827b;
+    color: #0F0F0F;
   }
   .prototype:hover a {
     color: white;
   }
   .prototype:hover {
     cursor: pointer;
-    background-color: #06827b;
+    background-color: #0F0F0F;
   }
 
   .prototype a {
     text-decoration: none;
-    color: #06827b;
+    color: #0F0F0F;
   }
 
   .video-container {
@@ -764,12 +764,12 @@ footer {
 }
 
 .send-btn {
-  background: #06827b;
+  background: #0F0F0F;
   color: white;
 }
 
 .send-btn:hover {
-  background: #045e59;
+  background: #0F0F0F;
 }
 
 .close-btn {
